@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<!-- Google Tags -->
+				<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61003905-1"></script>
+		<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+ 		gtag('config', 'UA-61003905-1');
+		</script>
+				<!-- End gtag.js -->
+		<!-- End Google tags -->
+
+
+		<!-- Change Title Per Post -->
+		<title>Raspberry Pi Home Server</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!-- Change Desciption per post -->
+		<meta name="description" content="This post will dive into using a Raspberry Pi model B as a home server!"/>
+		<link rel="shortcut icon" type="/image/png" href="/images/favicon.png">
+		<link rel="stylesheet" href="/assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="nd0905.com">nd0905.com</a></h1>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Blog</h2>
+							<ul class="links">
+								<li><a href="/index.html">Home</a></li>
+								<li><a href="/about-me.html">About Me</a></li>
+								<li><a href="/posts/index.html">Blog</a></li>
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+						<header>
+							<div class="inner">
+								<h2>Raspberry Pi Home Server</h2>
+								<p>This post will dive into using a Raspberry Pi model B as a home server!</p>
+							</div>
+						</header>
+
+						<!-- Content -->
+							<div class="wrapper">
+								<div class="inner">
+
+									<h3 class="major">Introduction</h3>
+									<p>Hi everyone, welcome back to another blog post. This week might be a little short because I am tight on time. I am finishing up a semester and have a ton of projects I am working on and need to work on. To give a brief synopsis of what I will be talking about I will start by talking about the advantages I have found while running a Raspberry Pi as my server to host my self hosted services. I will then go into talking about some of the disadvantages I have seen. I then will go a little more in depth about my current usage of my Raspberry Pi. I only plan to touch on the surface of what I am currently running because I plan on making a post further about what I am self hosting and how you can do what I am doing. If nothing that I talk about interests you this week then feel free to skip and hopefully I will have a little more time for my post next week. Enjoy!</p>
+
+									<h3 class="major">Advantages to Raspberry Pi Home Server</h3>
+									<p>To start out on some of the main advantages of using a Raspberry Pi as a home server are, low power usage cost, low cost per machine, easy to deploy, and has a ton of features that are not available on standard servers. Going through the list I mentioned from the start a Raspberry Pi 4b only uses max of 15 Watts. This amount of power is absolutely minimal compared to most other computers including laptops. With a power cost so low it could be very easy and intelligent to run multiple Raspberry Pis to get some high availability or distributed computing. This idea of running multiple servers to spread load makes more sense when you think of the cost of getting the hardware. A Raspberry Pi 4 with 4 gigabytes of ram only cost about $60 USD. This price is almost unbeatable compared to full size servers that can run 100-500 dollars USD used on eBay. So with the cost to run and the cost to purchase having 2,3,4 or even 5 Raspberry Pi 4b could be very doable and economical. The next feature that makes running a Raspberry Pi home server easy is the ease of deployment. After the initial setup of one Pi running services that you want to run, making copies of the SD card to deploy high availability is simple. Setting up rules to configure services to run after one goes down might be difficult to do, and I have not done yet, so I can not really speak on that matter. I would say from reading some documentation it seems setting up a kubernetes cluster to run these services with a nice distributed load and load balancing seems pretty simple. The final bonus of running Raspberry Pis as home servers is in the GPIO pins that are on the Raspberry Pis. These pins allow for adding features to a home server that might not be possible on a standard server such as power over ethernet to give power to the server or adding more sensors to home brew a system that checks temperature in a closet and turns on a fan if the "server" closet gets too warm. With all these features on the Raspberry Pi it makes having them be a full home server make a lot of sense.</p>
+
+									<h3 class="major">Disadvantages to Raspberry Pi Home Server</h3>
+									<p>After hearing all the positives of having a Raspberry Pi home server let me make sure you know what you are getting into. Although ARM based computing is becoming more and more commonplace they still are not the most developed architecture. With ARM only getting popular recently it makes some of the applications and services that you might want to run in a home not available to you. This can lead to a frustrating time trying to get a service that you think is necessary work for you with running on a Raspberry Pi. I personally have run into this issue a few times but never to the point of not getting something running that I wanted. To keep your nerves at rest it does seem that the longer we wait the more programs get ported over to ARM and allow for systems like the Raspberry Pi to run anything you want. Another disadvantage comes in the form of how powerful the Pi really is. If you have read much into the technical specifications of the Raspberry Pi you know the CPU is only clocked at 1.5 GHz which is significantly slower than most modern non-ARM based processors. The Pi also lacks any way to attach a dedicated GPU. This does limit the amount of difficult processing tasks that often run on a home server. With no way to attach a GPU there is a limited amount of video transcoding that can be done on the Pi which limits the amount of self hosted video services you can run. Another factor to consider is the lack of virtualization that can be done based on the hardware that it comes with. There are ways to virtualize on the Pi but that mainly is stuck to containers. For the most part not having virtualization available is not a problem as most services can be run directly on the OS or through a docker container which will cover almost all the issues that you will run into.</p>
+
+									<h3 class="major">My Current Usage of Raspberry Pi</h3>
+									<p>After looking at the advantages and disadvantages of running a Raspberry Pi as home server I personally decided for the current time being that it fits my needs and I purchased one for the few services I run. The main two services I run are Bitwarden and Jellyfin. Bitwarden for those who do not know is a password manager that is open source and self hostable or free to use from Bitwarden. This for me is run on Docker on the Pi with almost no issues. I also run Jellyfish to give me access to some of my media. This is run straight on the OS but I cant use it most days due to most of my media needing transcoding to view and the Pi just does not have enough power to really do transcoding on the fly. So far I have really enjoyed using it as my main server as it gives me all I need and fits easily anywhere I want to put it with giving off almost no sound or heat. The services are run through a reverse proxy to make sure everything runs smoothly.</p>
+
+									<h3 class="major">Conclusion</h3>
+									<p>Overall my experience running my home server on Raspberry Pi has been a great experience and if you have similar needs to me I would recommend doing the same. If you are looking to set up a new home network and need some servers to run a few services I would suggest either finding some old computers you have lying around or picking up some Raspberry Pis and getting it all done on those. Thanks for reading, feel free to reach out to me if you have any questions or want to just chat. I have been Nick, Thanks for reading.</p>
+
+								</div>
+							</div>
+
+					</section>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="inner">
+							<h2 class="major">Get in touch</h2>
+							<p>Feel free to send me an email for any questions. I will likely respond within a few days.</p>
+							<ul class="contact">
+								<li class="icon solid fa-envelope"><a href="mailto:Nick@nd0905.com">Nick@nd0905.com</a></li>
+							</ul>
+							<ul class="contact">
+								<li class="icon solid fa-money"><a href="/about-me.html#donation">Buy Me A Drink!</a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Nick.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="/assets/js/jquery.min.js"></script>
+			<script src="/assets/js/jquery.scrollex.min.js"></script>
+			<script src="/assets/js/browser.min.js"></script>
+			<script src="/assets/js/breakpoints.min.js"></script>
+			<script src="/assets/js/util.js"></script>
+			<script src="/assets/js/main.js"></script>
+
+	</body>
+</html>
