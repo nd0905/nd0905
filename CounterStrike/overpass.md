@@ -115,24 +115,24 @@ CT Side positions
 
 ## Connector
 
-<img src="media/image12.png"
+<img src="./media/overpass/media/image12.png"
 style="width:11.65625in;height:6.55858in" />
 
 ## Short
 
-<img src="media/image13.png"
+<img src="./media/overpass/media/image13.png"
 style="width:11.65104in;height:6.53164in" />
 
 ## Long
 
-<img src="media/image17.png"
+<img src="./media/overpass/media/image17.png"
 style="width:11.66667in;height:6.56444in" />
 
-<img src="media/image8.png" style="width:11.66667in;height:6.56057in" />
+<img src="./media/overpass/media/image8.png" style="width:11.66667in;height:6.56057in" />
 
 ## Bathrooms
 
-<img src="media/image4.png" style="width:11.72917in;height:6.5828in" />
+<img src="./media/overpass/media/image4.png" style="width:11.72917in;height:6.5828in" />
 
 Comments: Standing in the doorway to short
 
@@ -140,32 +140,32 @@ Comments: Standing in the doorway to short
 
 ## Monster
 
-<img src="media/image2.png" style="width:11.72396in;height:6.58581in" />
+<img src="./media/overpass/media/image2.png" style="width:11.72396in;height:6.58581in" />
 
 Comments: Plays this angle against a buy round
 
 ## Construction
 
-<img src="media/image10.png"
+<img src="./media/overpass/media/image10.png"
 style="width:11.97105in;height:6.73632in" />
 
 Comments: You can keep jumping to check boost before going to
 construction
 
-<img src="media/image20.png" style="width:12.04167in;height:6.7651in" />
+<img src="./media/overpass/media/image20.png" style="width:12.04167in;height:6.7651in" />
 
-<img src="media/image14.png" style="width:12.11458in;height:6.8112in" />
+<img src="./media/overpass/media/image14.png" style="width:12.11458in;height:6.8112in" />
 
 Comments: Cheeky angle here on a save round
 
-<img src="media/image11.png"
+<img src="./media/overpass/media/image11.png"
 style="width:12.10004in;height:6.80838in" />
 
 T Side positions
 
 # Passive B
 
-<img src="media/image18.png"
+<img src="./media/overpass/media/image18.png"
 style="width:12.53125in;height:7.03909in" />
 
 As a solo B player you can passively watch for pushes here.
@@ -176,53 +176,53 @@ Grenades
 
 ## Bathrooms (from fountain)
 
-<img src="media/image21.gif" style="width:11.33333in;height:6.375in" />
+<img src="./media/overpass/media/image21.gif" style="width:11.33333in;height:6.375in" />
 
 # Molotovs
 
 ## Divider
 
-<img src="media/image22.gif" style="width:11.33333in;height:6.375in" />
+<img src="./media/overpass/media/image22.gif" style="width:11.33333in;height:6.375in" />
 
 ## Connector Molotov 1
 
-<img src="media/image7.gif" style="width:11.33333in;height:6.375in" />
+<img src="./media/overpass/media/image7.gif" style="width:11.33333in;height:6.375in" />
 
 ## Connector Molotov 2
 
-<img src="media/image3.gif" style="width:11.33333in;height:6.375in" />
+<img src="./media/overpass/media/image3.gif" style="width:11.33333in;height:6.375in" />
 
 Aim right here and normal throw.
 
 ## Construction
 
-<img src="media/image15.png"
+<img src="./media/overpass/media/image15.png"
 style="width:12.73438in;height:7.16178in" />
 
 Result
 
-<img src="media/image16.png" style="width:12.7717in;height:7.17948in" />
+<img src="./media/overpass/media/image16.png" style="width:12.7717in;height:7.17948in" />
 
 Stand where the crosshair is pointing on the edge of the shadow.
 
-<img src="media/image19.png" style="width:12.75609in;height:7.1753in" />
+<img src="./media/overpass/media/image19.png" style="width:12.75609in;height:7.1753in" />
 
 Aim right here and jump throw.
 
 ## Barrels
 
-<img src="media/image9.gif" style="width:11.33333in;height:6.375in" />
+<img src="./media/overpass/media/image9.gif" style="width:11.33333in;height:6.375in" />
 
 # Flashes
 
 ## Short (from underpass entrance)
 
-<img src="media/image6.gif" style="width:11.33333in;height:6.375in" />
+<img src="./media/overpass/media/image6.gif" style="width:11.33333in;height:6.375in" />
 
 ## Water (from connector)
 
-<img src="media/image1.gif" style="width:11.33333in;height:6.375in" />
+<img src="./media/overpass/media/image1.gif" style="width:11.33333in;height:6.375in" />
 
 ## B Site
 
-<img src="media/image5.gif" style="width:11.33333in;height:6.375in" />
+<img src="./media/overpass/media/image5.gif" style="width:11.33333in;height:6.375in" />
