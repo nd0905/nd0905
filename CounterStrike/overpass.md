@@ -6,18 +6,18 @@ Tactics
 # General notes on defaults and tactics
 
 -   The purpose of a default is to take map control and set yourself up
-    > for the round endgame
+    for the round endgame
 
 -   Mid vs. “extremity” defaults
 
     -   Mid default (1-3-1): Usually 3 people take mid and establish
-        > strong map control
+        strong map control
 
     -   Extremity default (1-1-3): Instead of 3 people going mid, 3
-        > people go to A or B (the extremities of the map)
+        people go to A or B (the extremities of the map)
 
 -   If your 3 people on an extremity default get a pick, explode off of
-    > it instantly and your two 1-1 people become lurkers
+    it instantly and your two 1-1 people become lurkers
 
 # Notes on Overpass tactics
 
@@ -30,64 +30,64 @@ Tactics
 # Push B
 
 -   To push monster, throw [<u>this molotov</u>](#barrels) to clear out
-    > barrels and then throw [<u>this flash</u>](#b-site) twice
+    barrels and then throw [<u>this flash</u>](#b-site) twice
 
     -   Your teammates can swing out wide through monster and you have a
-        > great entry because barrels is clear
+        great entry because barrels is clear
 
 -   You can take short by [<u>throwing this
-    > molotov</u>](#construction-1) and pushing water
+    molotov</u>](#construction-1) and pushing water
 
 # 3-1-1 Default
 
 -   1 person goes B
 
     -   [<u>Throw this molly</u>](#construction-1) to prevent a push
-        > through construction
+        through construction
 
     -   You can either watch for pushes passively by standing
-        > [<u>here</u>](#passive-b)
+        [<u>here</u>](#passive-b)
 
     -   Or make your way through short, being sure to clear out boost
 
 -   1 person goes connector
 
     -   To clear connector, first [<u>throw this
-        > molly</u>](#connector-molotov-1)
+        molly</u>](#connector-molotov-1)
 
     -   Then clear out the rest of the angles in connector (there are a
-        > lot of them)
+        lot of them)
 
 -   3 people go A
 
     -   [<u>Smoke off bathrooms</u>](#bathrooms-from-fountain) and
-        > [<u>molly</u> <u>divider</u>](#divider) (will clear out any
-        > AWPers), this will give safe access to get to long or let you
-        > take mid
+        [<u>molly</u> <u>divider</u>](#divider) (will clear out any
+        AWPers), this will give safe access to get to long or let you
+        take mid
 
     -   Take bathrooms control from long OR from mid
 
         -   If you want to take bathrooms control from mid, clear
-            > connector and [<u>throw this flash to clear
-            > short</u>](#short-from-underpass-entrance)
+            connector and [<u>throw this flash to clear
+            short</u>](#short-from-underpass-entrance)
 
     -   Bathrooms control is the endgame for this default. There are two
-        > main options from here.
+        main options from here.
 
         -   You could clear out short with an AWPer and go A
 
         -   Or make your way through connector and go B. [<u>Throw this
-            > flash to take water</u>](#water-from-connector).
+            flash to take water</u>](#water-from-connector).
 
 # 1-1-3 Default
 
 -   3 people go B
 
     -   Two people can get control of water ([<u>throw this
-        > molotov</u>](#construction-1)) and then join up with the
-        > person connector. From there, you can take bathrooms control
-        > using the 3 people in connector and your default becomes a
-        > 1-3-1
+        molotov</u>](#construction-1)) and then join up with the
+        person connector. From there, you can take bathrooms control
+        using the 3 people in connector and your default becomes a
+        1-3-1
 
 # 2-2-1 Default
 
@@ -100,10 +100,10 @@ Tactics
     -   One person [<u>throws this molly</u>](#connector-molotov-1)
 
     -   The other person [<u>throws this
-        > molly</u>](#connector-molotov-2)
+        molly</u>](#connector-molotov-2)
 
     -   This is a safer way of taking connector control. All angles
-        > below stairs are cleared with these two molotovs.
+        below stairs are cleared with these two molotovs.
 
 -   2 people go A
 
